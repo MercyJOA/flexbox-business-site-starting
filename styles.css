@@ -1,0 +1,528 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+main{
+position: static;
+max-width: 100%;
+margin-right: 0;
+overflow: hidden;
+
+}
+    
+/* navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    background-color: rgb(229, 245, 107);
+    color: white;
+    position: fixed;
+    top: 1;
+    width: 100%;
+    flex: auto 2;
+}
+.logo{
+font-size: 2rem;
+padding:  0;
+padding-bottom: 2rem;
+margin-left: 2rem;
+font-weight: 900;
+font-family: merienda;
+color: rgb(78, 4, 147);;
+background-color: transparent;
+text-align: center;
+}
+.logo span{
+    font-size: 4rem;
+}
+.navbar ul{
+    margin: 1%;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color:rgb(13, 8, 17); 
+    text-decoration: underline;
+    list-style: none;
+    }
+
+    /* banner*/
+
+    .banner{
+        background-image: url(Images/vishal-zambare-wujOmywXZJE-unsplash.jpg);
+        height: 100;
+        text-align: center;
+       padding-top: 20%;
+        background-size:cover;
+        background-position: center;
+        color: white;
+        line-height: 1.4;
+        flex: 2 2;
+       }
+    .banner h1{
+        font-size: 5rem;
+        font-weight: bold;
+        font-family: merienda;
+        padding-top: 10
+    }
+    .banner span{
+        font-size: 7rem;
+    }
+    .banner p{
+        
+        color:white;
+        font-size: 1.2rem;
+        font-weight:  400 ;
+        width: 30rem;
+        margin-top: 1%;
+        align-items: flex-end;
+        margin-left: 17.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-align: left;
+        
+    }
+    .banner img{
+        
+        max-width: 70%;
+        align-items: flex-end;
+        max-height: 70%;
+        margin-right: 100%;
+        justify-content: flex-end;
+        border: 1 solid transparent;
+        border-radius: 0.5rem;
+        margin-left: -32%;
+        }
+    .banner .content{
+        display: flex;
+        justify-content: first baseline;
+        margin-right: 3rem;
+    
+        
+    }
+
+    /*banner button*/
+    .banner h4{
+        width: 35%;
+        height: 15%;
+        font-size: 1.3rem;
+        margin-left: 20rem;
+        margin-top: 2rem;
+        background-color: rgb(4, 250, 4);
+        color: white;
+        box-shadow: 0%;
+        border-radius: 0.5rem;
+        border: 1 solid rgb(4, 250, 4);
+        text-transform: uppercase;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .content2{
+        margin-top: 1%;
+        margin-left: 20%;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-right: 5%;
+        padding-right: 0;
+        width: 60.5%;
+        
+        
+        
+    }
+
+    /* mission */
+
+    .mission-content{
+        padding: 5rem;
+        background-color: goldenrod;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .mission-content h2{
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+
+    }
+    .mission-content p{
+        margin-bottom: 2rem;
+        line-height: 1.4;
+    }
+    .mission-content button{
+        width: 6rem;
+        height: 2rem;
+        background-color: black;
+        color: azure;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+    .mission-image{
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        margin: 5rem 0;
+        flex: 2 3;
+
+    }
+    .mission-image img{
+        height:20rem;
+        width: 20%
+        
+    
+
+    }
+    .mission-image .image2{
+        width: 30rem;
+        margin-top:-15rem ;
+        max-height: 25rem;
+        margin-left: 5rem;
+
+
+        
+    }
+    .mission-image .image1{
+        margin-top: -10rem;
+        width: 20rem;
+        height: 12rem;
+
+    }
+    .with-us ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        margin: 0 10rem;
+        font-size: 1.2rem;
+        align-items: center;
+        margin-left: 20rem;
+        font-family: Arial, Helvetica, sans-serif;
+        flex: 1 1;
+
+    }
+    .with-us h3{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 3rem;
+        border: 0.2rem solid black;
+        margin-left: 35rem;
+        margin-right: 35rem;
+        padding: 1rem 0;
+        border-style: double;
+        
+
+    }
+    .with-us img{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    /* hotels and flights*/
+
+    .hotels-flights{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        margin-left: 10rem;
+        margin-top: 5rem;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: -10rem;
+        flex: 1 3;
+        
+    }
+    .hotels{
+        height: 20rem;
+        width: 30rem;
+        background-color: darkkhaki;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1 solid darkkhaki ;
+        border-radius: 0.5rem;
+        box-shadow: -0.4rem -0.4rem 0.4rem rgb(214, 167, 48);
+        
+    }
+    .flights{
+        height: 20rem;
+        width: 30rem;
+        background-color: rgb(244, 228, 11);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1 solid rgb(244, 228, 11);
+        border-radius: 0.5rem;
+        box-shadow: 0.4rem 0.4rem 0.4rem darkgoldenrod;
+        
+    }
+    .flights button, .hotels button{
+    width: 15rem;
+        height: 2rem;
+        color: white;
+        background-color: black;
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        box-shadow: 0.3rem 0.3rem 0.3rem rgb(19, 15, 15),  -0.3rem -0.3rem 0.3rem rgb(28, 18, 18);
+    }
+    .flights h2, .hotels h2{
+        text-shadow: 0.5rem 0.5rem 0.5rem black;
+    }
+
+    /* destination */
+
+    .destination{
+        background-color: rgb(20, 18, 18);
+        color: white;
+        padding: 10rem 20rem;
+        display: flex;
+        justify-content:;
+        flex-wrap: wrap;
+        padding-bottom: 30rem;
+        flex: 2 5;
+    }
+
+    .destination h3{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 3rem;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 5rem;
+    }
+    .destination button{
+        color: white;
+        background-color: black;
+        height: 2rem;
+        width: 6rem;
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+        border-radius: 0.5rem;
+
+    }
+    .destination img{
+        width: 20rem;
+        height: 25rem;
+        align-content: flex-start;
+        margin-bottom: 1rem;
+        
+
+    
+    }
+    .destination .content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+     .image-1 img, .image-1 figcaption{
+        align-self: flex-end;
+        margin-left: 15rem;
+    }
+    .image-1{
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    .image-2 img{
+        align-self: flex-end;
+        margin-top: -15rem;
+        margin-left: 5rem;
+    }
+    .image-2 figcaption{
+        align-items: flex-end;
+        margin-left: 6rem;
+    }
+    .image-3 img {
+        align-self: flex-end;
+        margin-left: 35rem;
+        margin-top: -9rem;
+    }
+    .image-3 figcaption{
+        align-self: flex-end;
+        margin-left: 35rem;
+    }
+    .image-4 img{
+        align-self: flex-start;
+        margin-top: -14rem;
+        margin-left: 5rem;
+    }
+    .image-4 figcaption{
+        align-items: flex-start;
+        margin-left: 5rem;
+    }
+    .team{
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: url(Images/brooke-cagle--uHVRvDr7pg-unsplash.jpg);
+        margin: 10rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        margin-top: -15rem;
+        color: azure;
+        margin-bottom: 5rem;
+
+    }
+    .attractions img{
+        height: 10rem;
+        width: 10rem;
+
+    }
+    .attractions{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 1rem;
+        flex-direction: column;
+        font-family: monospace;
+        padding-bottom: 5rem;
+        
+    }
+    .attract-heading {
+        margin: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .food{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+
+        }
+        .attract{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+       .celebration, .drinks{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+           /* gap: 1.5rem;
+            justify-content: flex-start;
+            align-items: flex-start*/
+        }
+        .attractions button{
+            height: 2rem;
+            width: 7rem;
+            background-color: black;
+            color: azure;
+            text-transform: uppercase;
+            font-family:  Arial, Helvetica, sans-serif
+        }
+        .attractions h4{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .attractions .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1;
+           
+        }
+        .drinks{
+            margin-right: 35rem;
+        }
+        .drinks .content1{
+            
+            align-self: flex-start;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-left: 10rem;
+            margin-right: 14rem;
+            margin-top: -10rem;
+            
+
+            
+            }
+        .drinks img{
+            margin-top: rem;
+            margin-left: 30rem;
+           /* margin-bottom: 5rem;*/
+        }
+        .food img{
+            margin-left: 10rem;
+        }
+        .food .content{
+            margin-top: 0.3rem;
+            margin-left: 3rem;
+        }
+        .attractions p{
+            text-align: left;
+        }
+        .food{
+            margin-bottom: 0.5rem;
+            
+        }
+        .attract .content{
+            margin-left: 25rem;
+            margin-top: -11.5rem;
+        }
+        .attract img{
+            margin-left: 10rem;
+        }
+        .attract{
+            margin-right: 35rem;
+            
+        }
+        .celebration{
+            margin-right: 35rem;
+
+        }
+        .celebration .content{
+            align-self: flex-start;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-left: 10rem;
+            margin-right: 15rem;
+            margin-top: -10rem;
+        }
+        footer{
+            background-color: rgb(35, 25, 25);
+            color: rgb(128, 147, 147);
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            bottom: 0;
+            font-family: cursive;
+            opacity: 0.7;
+            
+        }
+        .copyright{
+            padding-left: 7rem;
+            letter-spacing: 0.3rem;
+            padding-top: 7rem;
+            margin-bottom: 3rem;
+        }
+        .contact{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            line-height: 2;
+            margin-right: 7rem;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            font-family: merienda;
+
+
+        }
+
+        
+
+
